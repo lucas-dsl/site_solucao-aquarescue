@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/padronizacao.css">
+    <link rel="stylesheet" href="styles/faq.css">
+    <title>FAQ</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" aria-label="Página inicial AquaRescue">
+            <img src="img/header/logo.png" alt="Logotipo da AquaRescue" class="logo-header">
+        </a>
+        <nav aria-label="Navegação Principal">
+            <ul id="menu-links">
+                <li><a href="index.html" class="link-suave">Início</a></li>
+                <li><a href="integrantes.html" class="link-suave">Integrantes</a></li>
+                <li><a href="solucao.html" class="link-suave">Solução</a></li>
+                <li><a href="faq.html" class="link-suave link-ativado">FAQ</a></li>
+                <li><a href="contato.html" class="link-suave">Contato</a></li>
+            </ul>
+        </nav>
+        <button>Entre em contato</button>
+
+        <div class="menu-hamburguer" onclick="abrirMenu()" aria-label="Abrir menu de navegação">
+            <img src="img/header/menu-header.png" alt="Menu de links">
+        </div>
+    </header>
+
+    <main>
+        <section id="perguntas-frequentes">
+            <h2>Perguntas Frequentes</h2>
+            <p class="subtitulo-section">
+                Respostas para as dúvidas mais comuns sobre nossa solução
+            </p>
+
+            <div class="container-perguntas-frequentes">
+
+                <div class="faq-item">
+                    <div class="pergunta" role="button">
+                        Quanto de água o dispositivo consegue produzir por dia?
+                        <img src="img/faq/seta-para-baixo.png" class="seta"
+                            alt="Icone seta de abertura para resposta" />
+                    </div>
+                    <div class="resposta">
+                        O Gerador de Água Atmosférica (AWG) do AquaRescue é capaz de produzir entre 10 e 30 litros de
+                        água potável por dia, dependendo das condições de umidade do ar. Em ambientes com maior umidade
+                        relativa, a produção tende a ser mais eficiente.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="pergunta" role="button">
+                        Como o dispositivo funciona sem eletricidade?
+                        <img src="img/faq/seta-para-baixo.png" class="seta"
+                            alt="Icone seta de abertura para resposta" />
+                    </div>
+                    <div class="resposta">
+                        O AquaRescue é equipado com painéis solares de alta eficiência que captam energia solar durante
+                        o dia e a armazenam em baterias de longa duração. Isso garante o funcionamento contínuo do
+                        sistema, mesmo em áreas sem acesso à rede elétrica, tornando-o ideal para situações de desastres
+                        naturais.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="pergunta" role="button">
+                        A água produzida é realmente potável?
+                        <img src="img/faq/seta-para-baixo.png" class="seta"
+                            alt="Icone seta de abertura para resposta" />
+                    </div>
+                    <div class="resposta">
+                        Sim, a água produzida pelo AquaRescue passa por um rigoroso sistema de filtragem que inclui
+                        tecnologia UV para eliminar bactérias e outros microrganismos. O sistema atende aos padrões
+                        internacionais de potabilidade da água, garantindo que seja segura para consumo humano.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="pergunta" role="button">
+                        Como o aplicativo ajuda na distribuição da água?
+                        <img src="img/faq/seta-para-baixo.png" class="seta"
+                            alt="Icone seta de abertura para resposta" />
+                    </div>
+                    <div class="resposta">
+                        O aplicativo AquaRescue permite o gerenciamento eficiente da distribuição de água através de
+                        várias funcionalidades: rastreamento em tempo real das unidades, agendamento de coletas para
+                        evitar aglomerações, controle por família para garantir distribuição justa, e monitoramento do
+                        volume disponível para otimizar o uso dos recursos.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="pergunta" role="button">
+                        Quem pode solicitar uma unidade AquaRescue?
+                        <img src="img/faq/seta-para-baixo.png" class="seta"
+                            alt="Icone seta de abertura para resposta" />
+                    </div>
+                    <div class="resposta">
+                        As unidades AquaRescue podem ser solicitadas por órgãos públicos como Defesa Civil, prefeituras,
+                        ONGs humanitárias e outras organizações de resposta a emergências. Em situações de crise,
+                        qualquer pessoa pode usar o aplicativo para registrar a necessidade de uma unidade em sua
+                        localidade, e as equipes de coordenação avaliarão a prioridade de atendimento.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="pergunta" role="button">
+                        Quanto tempo leva para instalar e começar a produzir água?
+                        <img src="img/faq/seta-para-baixo.png" class="seta"
+                            alt="Icone seta de abertura para resposta" />
+                    </div>
+                    <div class="resposta">
+                        O AquaRescue foi projetado para rápida implantação. Uma unidade pode ser instalada em
+                        aproximadamente 30 minutos e começará a produzir água potável em até 2 horas após a instalação,
+                        dependendo das condições ambientais. Isso permite uma resposta ágil em situações de emergência.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="img/header/logo.png" class="logo-footer" alt="Logotipo da AquaRescue">
+        <p>Copyright &copy; 2025 by Time EcoVision | Todos os direitos reservados</p>
+        <div class="icones-footer">
+            <img src="img/footer/icone-telefone.png" alt="Ícone de telefone">
+            <p>(11) 99999-9999</p>
+            <img src="img/footer/icone-email.png" alt="Ícone de e-mail">
+            <p>AquaRescue@gmail.com</p>
+        </div>
+    </footer>
+
+    <script src="js/faq.js"></script>
+    <script src="js/padronizacao.js"></script>
+</body>
+
+</html>

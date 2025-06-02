@@ -1,0 +1,95 @@
+body {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 1) 99%), url('../img/body/fundo-de-agua.jpg') no-repeat 0 -2rem / cover;
+}
+
+h2 {
+    margin-top: 6.5rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+section p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.contato {
+    display: flex;
+    padding: 1rem;
+}
+
+.area-entrar-contato {
+    flex: 1;
+    border-radius: .7rem;
+    padding: 1rem;
+    margin: 0 10%;
+}
+
+.area-entrar-contato h3 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #209BEB;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.erro {
+    margin-left: .3rem;
+    font-size: 1.3rem;
+    color: red;
+}
+
+.area-entrar-contato input,
+textarea {
+    border-radius: .5rem;
+    width: 100%;
+    border: 1px solid #afb1b4;
+    padding: 1rem;
+}
+
+.area-entrar-contato button {
+    padding: .8rem;
+    width: 100%;
+    border-radius: .5rem;
+    border: 1px solid #b7b7b7;
+    background-color: #00aaff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+    height: 10rem;
+}
+
+.nome,
+.email,
+.assunto,
+.mensagem {
+    font-size: 1.5rem;
+    color: #494b4d;
+}
+
+footer {
+    margin-top: 8rem;
+    background: linear-gradient(to top, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0) 90%);
+}
+
+@media (max-width: 850px) {
+    footer {
+        margin-top: 10rem;
+    }
+}
+
+@media (max-width: 700px) {
+    footer {
+        margin-top: 13rem;
+    }
+}

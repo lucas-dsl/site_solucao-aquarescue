@@ -1,0 +1,78 @@
+body {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 1) 99%), url('../img/body/fundo-de-agua.jpg') no-repeat 0 / cover;
+}
+
+#perguntas-frequentes {
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin-top: 2.5rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.subtitulo-section {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.container-perguntas-frequentes {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+.faq-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pergunta {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.resposta {
+    display: none;
+    background-color: #d8f3ff;
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 80%;
+}
+
+.faq-item.ativa .resposta {
+    display: block;
+}
+
+.faq-item.ativa .seta {
+    transform: rotate(180deg);
+}
+
+.seta {
+    width: 24px;
+    transition: transform 0.3s;
+}
+
+footer {
+    background: linear-gradient(to top, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0) 95%);
+}

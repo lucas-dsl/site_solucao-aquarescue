@@ -1,0 +1,110 @@
+body {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 1) 99%), url('../img/body/fundo-de-agua.jpg') no-repeat 0 60px / cover;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 5% 11%;
+}
+
+.escrita-main {
+    padding: 7rem 1rem 5rem 1rem;
+    width: 50%;
+}
+
+.img-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding-left: 5rem;
+}
+
+.img-main img {
+    width: 45rem;
+}
+
+main div h1 {
+    background: linear-gradient(to bottom, #0071C2, #209BEB);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-size: 4rem;
+}
+
+main div p {
+    color: #ffffff;
+    text-shadow: 1px 1px 4px black;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin: 3rem 0 3rem;
+}
+
+main div button {
+    border: none;
+    padding: 1.7rem;
+    border-radius: 2rem;
+    background-color: #209BEB;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-right: 2rem;
+    font-weight: bold;
+}
+
+main div button:hover {
+    background-color: #fff;
+    color: #209BEB;
+    transition: 0.2s ease;
+}
+
+footer {
+    background: linear-gradient(to top, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0) 95%);
+    margin-top: 10.5rem;
+}
+
+@media (max-width: 731px) {
+    main {
+        flex-direction: column;
+    }
+
+    .escrita-main, .img-main {
+        width: 100%;
+    }
+
+    .escrita-main {
+        text-align: center;
+    }
+
+    .img-main {
+        padding: 0;
+        margin-top: 7rem;
+    }
+
+    .img-main img {
+        width: 40rem;
+        height: 48rem;
+    }
+
+    main div button {
+        margin: 0;
+    }
+
+    .botoes button:nth-of-type(1) {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 731px) {
+    .botoes button:nth-of-type(1) {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 791px) {
+    .img-main {
+        margin-top: 2.5rem;
+    }
+}
